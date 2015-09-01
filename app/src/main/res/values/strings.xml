@@ -4,4 +4,16 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="show_toast">显示吐司</string>
+    <string name="data_storage_sp">使用SharedPreferences存储数据</string>
+    <string name="data_storage_io">使用文件存储数据</string>
+    <string name="data_storage_sql">使用SQLite数据库存储数据</string>
+    <string name="data_storage_cp">使用ContentProvider存储数据</string>
+    <string name="data_storage_net">使用网络存储数据</string>
+    <string name="title_activity_shared_preferences">SharedPreferencesActivity</string>
+    <string name="sp_tv_hint">在此输入</string>
+    <string name="sp_tv_out">此处为读出结果</string>
+    <string name="sp_btn_write">sp写入</string>
+    <string name="sp_btn_read">sp读取</string>
+    <string name="sp_tv_hint_name">在此输入姓名</string>
+    <string name="sp_tv_hint_age">在此输入年龄</string>
 </resources>

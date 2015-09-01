@@ -1,20 +1,29 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/acticity_main_btn1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/show_toast"/>
+        android:id="@+id/acticity_main_btn_sp"
+        android:text="@string/data_storage_sp"
+        style="@style/btn_first_activity" />
 
     <Button
-        android:id="@+id/acticity_main_btn2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/show_toast"/>
+        android:id="@+id/acticity_main_btn_io"
+        android:text="@string/data_storage_io"
+        style="@style/btn_first_activity" />
+    <Button
+        android:id="@+id/acticity_main_btn_sql"
+        android:text="@string/data_storage_sql"
+        style="@style/btn_first_activity" />
+    <Button
+        android:id="@+id/acticity_main_btn_cp"
+        android:text="@string/data_storage_cp"
+        style="@style/btn_first_activity" />
+    <Button
+        android:id="@+id/acticity_main_btn_net"
+        android:text="@string/data_storage_net"
+        style="@style/btn_first_activity" />
 </LinearLayout>
